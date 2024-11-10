@@ -1,0 +1,14 @@
+.container{
+    width: 1220px;
+    margin: 0 auto;
+    // border: 1px solid red;
+}
+
+@include mobil(){
+    .container{
+        width: 100%;
+        min-width: 320px;
+        max-width: 571px;
+        padding: 0 16px;
+    }
+}

@@ -1,0 +1,37 @@
+.nav {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 31px;
+  }
+
+  &__item {
+    padding: 10px;
+  }
+
+  &__icon {
+    display: none;
+  }
+}
+
+@include mobil() {
+  .nav {
+    &__wrapper {
+      padding: 28px 0;
+    }
+
+    &__list {
+      display: none;
+    }
+
+    &__icon {
+      display: block;
+    }
+  }
+}

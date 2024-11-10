@@ -1,0 +1,26 @@
+.btn{
+    padding: 13.5px 46px;
+    border: 1px solid white;
+
+    &:hover{
+        background: white;
+        color: $BG-COLOR;
+    }
+
+    &--sekond{
+        background:$BG-COLOR;
+        color: white;
+        padding: 20px 40px;
+    }
+
+    &--premium{
+        padding: 20px 40px ;
+        background: #4452FE;
+        color: white;
+    }
+     
+    &--junyor{
+        background: #4452FE;
+        color: white;
+    }
+}
